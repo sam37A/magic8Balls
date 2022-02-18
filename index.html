@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8balls</title>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+        .container{
+            background-color: blue;
+            height: 500px;
+            width: 400px;
+            margin:auto;
+            text-align: center;
+            border-radius: 10px;
+            
+
+        }
+        h1{
+            background-color: aqua;
+        }
+        #answers{
+            height:200px;
+            width:200px;
+            background-color: aqua;
+            margin:auto;
+            margin-top:50px;
+            border-radius: 100%;
+           
+            
+        }
+       label, input, button{
+           padding:10px;
+           font-size: 20px;
+           border-radius: 10px;
+           color:black;
+           font-weight: 500px;
+           margin-top:10px;
+       }
+        p{
+            text-align: center;
+            padding:70px;
+        }
+    </style>
+</head>
+<body>
+  <!--
+.............
+final project:
+Your final project will be to build a magic 8 ball app
+Create a new repository named: magic8ball
+Clone your repository
+Add your index file, stylesheet, script file and the provided 8ball images
+6.1. TAKE HOME CHALLENGE - OBJECTIVES
+Create input field for users to ask a question
+Create a label for your input field telling your user to “Ask me anything!”
+Create an “ask” button (this will run the function that you will insert the images into using javascript)
+Create a div with an id of “answers” that you will insert the images into using js
+Creat an “ask” function that when clicked, will choose as random 8ball image and insert it into your “answers” div
+Replace the input field with the user’s question when displaying the answer
+Style your page any way you like
+Activate Github Pages for your project
+
+
+ -->
+ <div class="container">
+     <h1>Magic 8Ball</h1>
+     <label for="question">Ask me anything</label> <br>
+    <input type="text"><br>
+    
+    <button>Ask</button> 
+    
+    <div id="answers">
+       <p>Answer</p>
+    </div>
+   
+</div> 
+
+<script src="./js/script.js"></script>
+</body>
+</html>
